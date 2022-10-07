@@ -1,0 +1,1045 @@
+/* * {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style the body */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  /* For tablet: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+
+  .col-s-2 {
+    width: 16.66%;
+  }
+
+  .col-s-3 {
+    width: 25%;
+  }
+
+  .col-s-4 {
+    width: 33.33%;
+  }
+
+  .col-s-5 {
+    width: 41.66%;
+  }
+
+  .col-s-6 {
+    width: 50%;
+  }
+
+  .col-s-7 {
+    width: 58.33%;
+  }
+
+  .col-s-8 {
+    width: 66.66%;
+  }
+
+  .col-s-9 {
+    width: 75%;
+  }
+
+  .col-s-10 {
+    width: 83.33%;
+  }
+
+  .col-s-11 {
+    width: 91.66%;
+  }
+
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+}
+
+
+/* container */
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/* header   */
+#header {
+  background-color: #fff;
+  position: sticky;
+  top: 0px;
+  z-index: 5000;
+  box-shadow: 6px 6px 6px rgb(0 0 0 / 75%);
+}
+
+.navbar ul {
+  list-style: none;
+
+}
+
+.navlist {
+  display: inline-block;
+  padding: 15px;
+}
+
+.navlist a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.login {
+  padding: 17px 0px;
+}
+
+.lgn-btn {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  height: 25px;
+  font-family: 15px;
+  cursor: pointer;
+}
+
+/* banner */
+
+#banner {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),url(./assets/images/banner1.jpg);
+  background-repeat: no-repeat;
+  background-position: cover;
+
+}
+
+.banner-heading1 {
+  margin: auto;
+  margin-top: 70px;
+  font-size: 50px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 0px 6px 6px rgb(0, 0, 0 / 75%);
+  margin-bottom: 20px;
+}
+
+.banner-heading1 span {
+  color: #ffff00;
+  margin-top: 10px;
+  display: block;
+  padding-left: 100px;
+  text-shadow: 0px 6px 6px rgb(0, 0, 0 / 75%);
+}
+
+.banner-heading2 {
+  margin: auto;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: 0px 6px 6px rgb(0, 0, 0 / 75%);
+}
+
+
+.select-menu {
+  margin: auto;
+  background-color: #fff;
+  border-radius: 50px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.select-menu select {
+  border: none;
+  background-color: #fff;
+  text-align: center;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.heading-dwnld {
+  margin: auto;
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: 0px 6px 6px rgb(0, 0, 0 / 75%);
+  margin-bottom: 10px;
+}
+
+#download-btn {
+  margin: auto;
+  margin-top: 15px;
+  background-color: black;
+  color: #fff;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  height: 40px;
+  padding: 9px;
+  border-radius: 40px;
+  margin-bottom: 60px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#download-btn:hover {
+  border: 1px solid #fff;
+  color: black;
+  background-color: #fff;
+  transition: 1s ease;
+
+  box-shadow: 2px 2px 6px rgb(0, 0, 0 / 75%);
+}
+
+/* deals and offers css */
+
+.deals-div {
+  margin-top: 10px;
+}
+
+.deals-img {
+
+  border: none;
+  cursor: pointer;
+}
+
+.deals-img img {
+  border-radius: 10px;
+
+}
+
+
+/* explore div css */
+
+
+.explore-div {
+  margin-top: 20px;
+  background-color: rgb(248, 248, 248);
+}
+
+.explore-img {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.explore-img:hover {
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+
+
+/* best seller section css */
+
+
+
+.seller-img {
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+.seller-img img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.sell-content-heading {
+  padding: 0px 15px;
+  font-size: 20px;
+
+}
+
+.seller-content p {
+  color: #848484;
+  font-size: 14px;
+  padding: 0px 15px;
+}
+
+
+/* Newly launched stores css */
+
+
+.new-launched {
+  background-color: rgb(248, 248, 248);
+}
+
+.new-launched-content {
+  padding: 10px 0px;
+}
+
+.store-main-div {
+  border: 1px solid rgb(239, 239, 239);
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  cursor: pointer;
+  margin: auto;
+}
+.store-top {
+  padding: 0px 10px;
+}
+
+.store-top-heading {
+  color: #006630;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.sell-top-para {
+  color: #006630;
+
+}
+
+.store-bottom {
+  background: -webkit-linear-gradient(left, #a0d8ba 0%, #3f9366 100%);
+  border-radius: 12px;
+}
+
+.lapinoz-icon {
+  max-width: 40px;
+  padding: 5px 12px;
+}
+
+.store-detail {
+  color: #fff;
+  padding: 5px 12px;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone-icon {
+  position: absolute;
+  background: none;
+  width: 30px;
+  border-radius: 50%;
+  top: 89px;
+  left: 230px;
+  background-color: #fff;
+  padding: 0px 4px;
+}
+
+
+ /* franchise Inquiry bannner  css  */
+
+
+
+
+
+ /* Lets here what foodie says css / public reviews  */
+
+
+.public-review1{
+  padding: 2px 2px;
+}
+
+blockquote{
+background-color: #f8f8f8;
+padding: 50px 50px;
+position: relative;
+border-radius: 8px;
+font-size: 17px;
+color: #201C1D;
+box-shadow: 0 10px 15px -5px rgb(9 31 67 / 10%);
+}
+
+.public-name{
+  padding: 2px 10px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+
+/* lapinoz outlet css */
+
+
+.lapinoz-outlet{
+  margin-top: 40px;
+  background-color: #24572c;
+}
+
+.outlet-heading{
+ color: #fff;
+}
+
+.city-main{
+  padding: 7px;
+  background-color: #fff;
+  font-weight: 500;
+  margin-top: 9px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 14px;
+  box-shadow: 0px 4px 7px rgb(0 0 0 / 20%);
+}
+
+.outlet-city-list{
+  list-style: none;
+}
+.outlet-city-list li{
+color: #fff;
+width: auto;
+padding: 10px 15px;
+background: #bbf3dc14;
+border-radius: 9px;
+box-shadow: 0 5px 20px -10px rgb(0 0 0 / 30%);
+font-size: 15px;
+display: inline-flex;
+align-items: center;
+font-weight: 300;
+}
+
+.outlet-city-list li:hover{
+  background-color: #fff;
+  color: #201C1D;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+
+
+/* download app banner css */
+
+
+.download-section{
+  background-color: #f8f8f8;
+  margin-top: 0px;
+}
+
+
+.download-heading{
+  font-size: 36px;
+line-height: 46px;
+font-weight: 700;
+width: 100%;
+max-width: 340px;
+margin-bottom: 15px;
+text-transform: uppercase;
+padding: 0px 20px;
+}
+
+.download-para{
+color: rgb(132, 132, 132);
+font-size: 18px;
+margin-bottom: 8px;
+font-weight: 500;
+padding: 0px 20px;
+}
+
+.app-benifits{
+  list-style-type: none;
+}
+
+.app-benifits p{
+  color: #848484;
+font-size: 16px;
+margin-bottom: 6px;
+display: flex;
+}
+
+.download-app-para{
+  color: rgb(151, 151, 151);
+font-size: 18px;
+padding: 0px 20px;
+margin-bottom: 6px;
+}
+
+.phone-div{
+  padding: 50px 50px;
+  background-image: url(./assets/phone-frame.png);
+ background-size: cover;
+ max-height: 600px;
+ max-width: 300px;
+}
+
+.phone-div img{
+  width: 100%;
+  max-width: 350px;
+ border-radius: 12px;
+  max-height: 600px;
+
+}
+
+
+/* footer css */
+
+
+.footer{
+  background-color:  #00572d;
+}
+
+.footer-content{
+  padding: 5px 5px;
+}
+
+.footer-content li{
+  list-style: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 7px 5px;
+  cursor: pointer;
+}
+.payment-methods img{
+  max-width: 45px;
+  border-radius: 12px;
+}
+
+.social-icons{
+  border: 2px solid white;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.social-icons:hover{
+  color: black;
+  background-color: white;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.last-line{
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* the end of main page */
+
+
+/* our story */
+
+.story-page{
+  background-color: #666);
+}
+
+.about-heading{
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.about-para{
+  color: rgb(132, 132, 132);
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.about-img{
+  padding: 20px;
+}
+.about-img img{
+  width: 100%;
+  max-width: 400px;
+ 
+  border-radius: 10px;
+}
+
+
+
+/* growth journey and internatioal launching */
+
+
+.growth-journey{
+  background-color: rgb(248, 248, 248);
+}
+
+.timeline-content{
+  margin-top: 15px;
+  margin-bottom: 15px;
+background: #fff;
+border-radius: 0.6rem;
+padding: 10px 10px;
+opacity: 1;
+box-shadow: 0px 4px 7px rgb(0 0 0 / 10%);
+max-width: 450px;
+}
+
+.timeline-content h3{
+ color: rgb(0, 102, 48);
+text-transform: uppercase;
+font-weight: 700;
+text-align: left;
+font-size: 18px;
+margin-bottom: 5px;
+}
+
+.timeline-content p{
+ color: rgb(32, 28, 29);
+text-align: justify;
+margin: 0px;
+text-align: left;
+font-weight: 500;
+font-size: 15px;
+}
+
+.international{
+  margin-top: 20px;
+background-color: #fff;
+padding: 10px 25px 30px 25px;
+border-radius: 15px;
+box-shadow: 0px 4px 7px rgb(0 0 0 / 10%);
+}
+
+.about-sub-heading{
+ font-size: 20px;
+color: #333;
+margin: 15px 0 25px 0px;
+}
+
+.country-listing{
+list-style-type: none;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0px;
+margin: 0px;
+}
+
+.country-listing li{
+ display: inline-block;
+width: 100%;
+max-width: 30%;
+text-align: center;
+margin: 15px 0;
+font-size: 17px;
+font-weight: 500;
+color: #333;
+}
+
+.flag{
+width: 100%;
+max-width: 100px;
+height: 100px;
+border-radius: 50%;
+overflow: hidden;
+margin: 0 auto;
+margin-bottom: 20px;
+box-shadow: 0 5px 20px -10px rgb(0 0 0 / 30%);
+}
+
+.flag img{
+width: 100%;
+max-width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+
+/* our story css ending */
+
+
+/* store Locator page css */
+
+
+.locate-us{
+  background-color: #f7f7f7;
+  font-family: 'Roboto', sans-serif !important;
+  padding-bottom: 50px;
+}
+
+.locate-content{
+  padding-top: 30px;
+}
+
+.locate-content h2{
+  font-size: 36px;
+color: #24572C;
+text-transform: uppercase;
+}
+
+.light-weight{
+  font-weight: 300 !important;
+}
+
+.locate-content p{
+font-size: 14px;
+line-height: 24px;
+ color: #333;
+margin-top: 10px;
+}
+
+.locate-button-div{
+  padding: 5px;
+}
+.locate-button{
+  width: 100%;
+  height: 30px;
+  line-height: 12px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.map{
+  padding-top: 70px;
+}
+.map img{
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* store locator css ending */
+
+
+/* contact us page css */
+
+
+.contact-div{
+  background-color: #f7f7f7;
+  padding-top: 20px;
+
+}
+
+
+.contact-heading{
+  margin: auto;
+ 
+}
+
+.contact-heading h2{
+  font-size: 36px;
+color: #24572C;
+text-transform: uppercase;
+font-weight: 300;
+display: block;
+}
+
+.contact-para p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.company-main{
+  padding: 10px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.company-info{
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0 10px 22px -10px rgba(0,0,0,0.3);
+text-align: center;
+padding: 2rem;
+}
+
+
+.contact-form-heading{
+  text-align: center;
+}
+
+.form-inner-div{
+  padding: 10px 20px;
+  
+}
+
+.form-input{
+  width: 100%;
+  font-size: 14px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.form-submit{
+ margin: auto;
+ margin-bottom: 100px;
+ 
+}
+.form-submit button{
+ background-color: #24572C !important;
+border: 2px solid #24572C !important;
+border-radius: 80px !important;
+padding: 10px 35px !important;
+font-weight: normal !important;
+color: #fff !important;
+cursor: pointer;
+}
+
+
+
+/* .contact-div ending */
+
+
+/* franchise enquiry */
+
+.enquiry-about{
+  background-color: #f7f7f7;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+
+.franchise-heading h4{
+font-size: 14px;
+text-transform: uppercase;
+color: #7c7c7c;
+}
+
+.franchise-heading h1{
+  font-size: 36px;
+color: #24572C;
+text-transform: uppercase;
+}
+
+.franchise-heading p{
+  font-size: 14px;
+line-height: 24px;
+margin-top: 10px;
+}
+
+.franchise-form{
+  padding: 10px;
+  
+}
+
+.franch-form{
+  cursor: pointer;
+  width: 98%;
+  height: 30px;
+}
+
+/* order online page */
+
+
+.order{
+  background-color: #f7f7f7;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+}
+
+.order-heading{
+  text-align: center !important;
+  font-size: 27px;
+font-weight: 700;
+color: #2d2b2d;
+}
+
+.order-para{
+  font-size: 16px;
+  text-align: center;
+  color: #666;
+}
+
+.order-form{
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #fff;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 50px;
+  height: 30px;
+  line-height: 30px;
+  box-shadow: 0px 3px 6px #00000029 !important;
+}
+
+#order-search{
+  border: none;
+  width: 73%;
+  height: 30px;
+}
+
+#lapinoz-order-outlets{
+  margin-top: 0px;
+  background-color: #f7f7f7;
+  
+}
+#outlet-city-list-outlets li{
+  color: #201C1D;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000029 !important;
+}
+
+
+@media only screen and (max-width:500px){
+
+  .logo{
+    padding: 5px 9px;
+   
+  }
+  .navlist{
+    width: 70%;
+    box-shadow: none; 
+  }
+
+  .login{
+    padding: 2px 50px;
+  }
+  .lgn-btn{
+    width: 30%;
+  }
+  .banner-heading1{
+    
+    text-align: center;
+  }
+  .banner-heading1 span{
+    padding: 0px 3px;
+    text-align: center;
+  }
+  .banner-heading2{
+    
+    text-align: center;
+  }
+  .select-menu{
+    padding: 1px 10px;
+    margin: 0px 3px;
+  }
+  .heading-dwnld{
+    text-align: center;
+  }
+  .deals-offers{
+   margin: 10px 10px;
+  }
+  .deals-img{
+   
+    padding: 5px 7px;
+  }
+  .deals-img img{
+   width: 100%;
+  }
+  .explore-content{
+    width: 40%;
+    float: left;
+    display: inline-block;
+    margin: auto;
+  }
+  .explore-img{
+    padding: 5px 7px;
+  }
+ .explore-img img{
+  width: 100%;
+ }
+ .store-main-div{
+  margin: 10px 10px;
+ }
+ .franchise-banner{
+  padding: 5px 7px;
+ }
+ .outlet-city-list li{
+  margin: 10px 5px;
+ }
+ .playstore-img{
+  margin: 5px 9px;
+ }
+ .footer-content{
+  text-align: center;
+ }
+ .last-line{
+  text-align: center;
+ }
+ .timeline-content , .international{
+  margin: 7px 7px;
+ }
+
+ .locate-button-div{
+  display: inline-block;
+  float: left;
+  width: 40%;
+  padding: 5px 17px;
+ }
+ .locate-button{
+  width: 100%;
+  display: inline-block;
+ }
+
+ .map{
+  padding: 5px 7px;
+ }
+
+.header{
+  box-shadow: none;
+}
+
+.order-form{
+  margin: 10px 7px;
+}
+.flag img{
+ 
+  width: 100%;
+}
+.flag{
+width: 95%;
+}
+}

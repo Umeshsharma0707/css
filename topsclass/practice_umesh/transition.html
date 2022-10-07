@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+div.test {
+  width: 100px;
+  height: 100px;
+  background: red;
+  
+  transition-property: width height color font-size;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 2s;
+  
+ transition: width 2s linear 2s;
+}
+
+div.test:hover {
+  transform: scale(3,3);
+  font-size:30px;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-name:umesh ;
+  color:rgb(209, 209, 62);
+}
+@keyframes umesh {
+  0%{ background-color: yellowgreen;}
+  100%{ background-color: rgb(23, 27, 16); transform: scale(3,3);}
+}
+</style>
+</head>
+<body>
+
+<h1>Transition </h1>
+<div align="center">
+	<div class="test" >umesh</div><span>Hello</span>
+</div>
+
+</body>
+</html>
